@@ -1,0 +1,12 @@
+<div class="item-shop-container">
+  <h2>Tienda de Ítems:</h2>
+  <ul>
+    <!-- Mostrar la lista de ítems disponibles y permitir al jugador comprar uno -->
+    <li *ngFor="let item of availableItems" (click)="purchaseItem(item)" [class.selected]="item === selectedItem">
+      {{ item }}
+    </li>
+  </ul>
+  <div *ngIf="selectedItem" class="selected-item">
+    Ítem seleccionado: {{ selectedItem }}
+  </div>
+</div>
