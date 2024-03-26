@@ -1,0 +1,18 @@
+<div class="map-container">
+  <!-- Mostrar el mapa del juego -->
+  <img src="path/to/map-image.png" alt="Mapa" class="map-image">
+
+  <!-- Mostrar ubicaciones de héroes -->
+  <ng-container *ngFor="let location of heroesLocations">
+    <div class="hero-marker" [style.left.px]="location.x" [style.top.px]="location.y">
+      {{ location.name }}
+    </div>
+  </ng-container>
+
+  <!-- Mostrar ubicaciones de bestias neutrales -->
+  <ng-container *ngFor="let location of neutralLocations">
+    <div class="neutral-marker" [style.left.px]="location.x" [style.top.px]="location.y">
+      {{ location.name }}
+    </div>
+  </ng-container>
+</div>
