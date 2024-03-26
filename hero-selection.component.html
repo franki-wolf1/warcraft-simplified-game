@@ -1,0 +1,12 @@
+<div class="hero-selection-container">
+  <h2>Selecciona tu héroe:</h2>
+  <ul>
+    <!-- Mostrar la lista de héroes disponibles y permitir al jugador seleccionar uno -->
+    <li *ngFor="let hero of availableHeroes" (click)="selectHero(hero)" [class.selected]="hero === selectedHero">
+      {{ hero }}
+    </li>
+  </ul>
+  <div *ngIf="selectedHero" class="selected-hero">
+    Héroe seleccionado: {{ selectedHero }}
+  </div>
+</div>
