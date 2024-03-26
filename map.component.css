@@ -1,0 +1,23 @@
+.map-container {
+  position: relative;
+}
+
+.map-image {
+  width: 100%; /* Ajustar el ancho según sea necesario */
+}
+
+.hero-marker,
+.neutral-marker {
+  position: absolute;
+  background-color: red; /* Color del marcador, ajustar según sea necesario */
+  width: 20px; /* Tamaño del marcador, ajustar según sea necesario */
+  height: 20px; /* Tamaño del marcador, ajustar según sea necesario */
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  color: white; /* Color del texto del marcador */
+}
+
+.neutral-marker {
+  background-color: blue; /* Color del marcador de bestias neutrales */
+}
