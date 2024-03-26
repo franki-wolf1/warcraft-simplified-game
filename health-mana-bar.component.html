@@ -1,0 +1,8 @@
+<div class="health-mana-bar">
+  <div class="health-bar" [style.width.%]="(health / maxHealth) * 100">
+    {{ health }} / {{ maxHealth }}
+  </div>
+  <div class="mana-bar" [style.width.%]="(mana / maxMana) * 100">
+    {{ mana }} / {{ maxMana }}
+  </div>
+</div>
