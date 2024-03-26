@@ -1,6 +1,5 @@
 # warcraft-simplified-game
-full game like Warcraft with Angular
-
+## full game like Warcraft with Angular
 
 Para crear un juego similar a Warcraft pero simplificado con Angular, podemos desarrollar un juego de estrategia en tiempo real (RTS) básico que permita la selección de héroes y la adquisición de ítems para mejorar sus habilidades. Aquí te proporcionaré un esquema básico del juego utilizando Angular para la interfaz de usuario y JavaScript para la lógica del juego.
 
@@ -14,7 +13,15 @@ Integración de Roshan: Podemos agregar una criatura poderosa similar a Roshan d
 
 Aquí hay un ejemplo simplificado de cómo podrías estructurar el juego:
 
-Este es solo un esbozo básico. Para construir el juego completo, necesitarás agregar más características como la lógica de combate, la IA para enemigos controlados por la computadora, la gestión de recursos, etc. Además, asegúrate de implementar la funcionalidad de Angular como el enrutamiento, formularios reactivos, manejo de eventos, etc., según sea necesario para tu juego.
-
-
-
+Interfaz de Usuario (Componentes de Angular)
+Mapa: Mostrará las ubicaciones de los héroes y las bestias neutrales.
+Selección de Héroes: Permite al jugador seleccionar su héroe.
+Tienda de Ítems: Permite al jugador comprar ítems para su héroe.
+Información del Héroe: Muestra las estadísticas y habilidades del héroe seleccionado.
+Barra de Salud/Mana: Muestra la salud y el mana del héroe seleccionado.
+Menú de Opciones: Opciones como salir del juego, reiniciar, ajustar configuraciones, etc.
+Lógica del Juego (JavaScript)
+Movimiento de Héroes: Controla cómo los héroes se mueven por el mapa.
+Interacción con Ítems: Maneja cómo los héroes adquieren y usan ítems para mejorar sus habilidades.
+Lucha contra Bestias Neutrales: Define el comportamiento de las bestias neutrales y las recompensas por derrotarlas.
+Integración de Roshan: Implementa las características especiales de Roshan y las recompensas por derrotarlo.
