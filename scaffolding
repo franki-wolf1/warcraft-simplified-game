@@ -1,0 +1,26 @@
+warcraft-simplified-game/
+│
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   │   ├── map/
+│   │   │   ├── hero-selection/
+│   │   │   ├── item-shop/
+│   │   │   ├── hero-info/
+│   │   │   ├── health-mana-bar/
+│   │   │   ├── options-menu/
+│   │   │   └── ...
+│   │   ├── services/
+│   │   │   ├── hero.service.ts
+│   │   │   ├── item.service.ts
+│   │   │   └── game-logic.service.ts
+│   │   ├── models/
+│   │   │   ├── hero.model.ts
+│   │   │   ├── item.model.ts
+│   │   │   └── ...
+│   │   ├── app.component.html
+│   │   ├── app.component.ts
+│   │   └── ...
+│   ├── assets/
+│   └── ...
+└── ...
