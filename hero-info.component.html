@@ -1,0 +1,17 @@
+<div class="hero-info-container">
+  <h2>Información del Héroe:</h2>
+  <div *ngIf="selectedHero">
+    <h3>{{ selectedHero }}</h3>
+    <!-- Mostrar estadísticas del héroe -->
+    <p>Salud: {{ heroStats.health }}</p>
+    <p>Mana: {{ heroStats.mana }}</p>
+    <p>Daño: {{ heroStats.damage }}</p>
+    <p>Armadura: {{ heroStats.armor }}</p>
+    
+    <!-- Mostrar habilidades del héroe -->
+    <h4>Habilidades:</h4>
+    <ul>
+      <li *ngFor="let ability of heroAbilities">{{ ability }}</li>
+    </ul>
+  </div>
+</div>
